@@ -18,6 +18,24 @@
         "Elements",
         "Button1.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "pets",
+        "Elements",
+        "Button2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "pets",
+        "Elements",
+        "Button3.json"
+      ]
     }
   ],
   "class": "",
