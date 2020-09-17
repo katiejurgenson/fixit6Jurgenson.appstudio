@@ -47,3 +47,28 @@ Button3.onclick=function(){
   alert(`You added Nancy to the array.`);
   console.log(`The action taken was: Add Nancy to the beginning of the array. The new array data is: ${withMarmaduke}.`)
 }
+
+Button4.onclick=function(){
+  let yourName = prompt("Please enter your name:", "Your Name Here");
+  let addYou = withMarmaduke.push(`${yourName}`);
+  alert(`You added your name, ${yourName}, to the array.`);
+  console.log(`The action taken was: Add your name to the end of the array. The new array data is: ${withMarmaduke}.`); 
+}
+
+Button5.onclick=function(){
+  let indexRiley = withMarmaduke.indexOf("Riley");
+  alert(`The array index where Riley is located is ${indexRiley}`);
+  console.log(`The action taken was: Tell the user the array index where Riley is located. As a reminder, the array data is: ${withMarmaduke}.`); 
+}
+
+Button6.onclick=function(){
+  let indexCindy = withMarmaduke.indexOf("Cindy");
+  alert(`The array index where Cindy is located is ${indexCindy}`);
+  console.log(`The action taken was: Tell the user the array index where Cindy is located. As a reminder, the array data is: ${withMarmaduke}.`);
+}
+
+Button7.onclick=function(){
+  let separatedArray = withMarmaduke.join(", ");
+  alert(`The data of the array is ${separatedArray}.`);
+  console.log(`The action taken was: Show the "withMarmaduke" array data. The array data is: ${withMarmaduke}.`);
+}
